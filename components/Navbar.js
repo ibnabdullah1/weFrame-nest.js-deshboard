@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
-        <div className="hidden mg:flex items-center border gap-9 px-2 rounded-lg py-2">
+        <div className="hidden md:flex items-center border gap-9 px-2 rounded-lg py-2">
           <div className=" flex items-center gap-2">
             <Image
               width={30}

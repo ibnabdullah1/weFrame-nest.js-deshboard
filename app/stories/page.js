@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 import Image from "next/image";
-import avatar from "../../../public/image/avater.jpeg";
+import avatar from "../../public/image/avater.jpeg";
 import { RxDotsHorizontal } from "react-icons/rx";
 import { TiArrowSortedDown } from "react-icons/ti";
 
