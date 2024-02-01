@@ -4,8 +4,8 @@ import image2 from "../../../public/image/application 1.svg";
 import image3 from "../../../public/image/storytelling 1.svg";
 import image4 from "../../../public/image/advertisement 1.svg";
 import Image from "next/image";
-import ContentCard from "@/Components/ContentCard";
-import TopStories from "@/Components/TopStories";
+import ContentCard from "@/components/ContentCard";
+import TopStories from "@/components/TopStories";
 const page = () => {
   return (
     <div className="bg-[#f8fafb] min-h-[80vh] px-4 py-6 max-w-6xl mx-auto">
