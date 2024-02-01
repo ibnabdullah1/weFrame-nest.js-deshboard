@@ -106,7 +106,7 @@ export default function Home() {
           <div className="rounded-t mb-0 px-0 border-0">
             <div className="flex flex-wrap items-center px-4 py-2">
               <div className="relative w-full max-w-full flex-grow flex-1">
-                <h3 className="font-semibold text-base text-gray-900 ">
+                <h3 className="font-semibold text-base text-white ">
                   Social Traffic
                 </h3>
               </div>
@@ -123,13 +123,13 @@ export default function Home() {
               <table className="items-center w-full bg-transparent border-collapse">
                 <thead>
                   <tr>
-                    <th className="px-4 bg-[#E8E9FF]  text-gray-500  align-middle border border-solid border-gray-200  py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                    <th className="px-4 bg-[#E8E9FF]  text-[#7950F2]  align-middle border border-solid border-gray-200  py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                       Referral
                     </th>
-                    <th className="px-4 bg-[#E8E9FF]  text-gray-500  align-middle border border-solid border-gray-200  py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
+                    <th className="px-4 bg-[#E8E9FF]  text-[#7950F2]  align-middle border border-solid border-gray-200  py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
                       Visitors
                     </th>
-                    <th className="px-4 bg-[#E8E9FF]  text-gray-500 dark:text-gray-100 align-middle border border-solid border-gray-200  py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px"></th>
+                    <th className="px-4 bg-[#E8E9FF]  text-[#7950F2] dark:text-gray-100 align-middle border border-solid border-gray-200  py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left min-w-140-px"></th>
                   </tr>
                 </thead>
                 <tbody>
