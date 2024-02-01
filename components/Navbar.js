@@ -3,7 +3,7 @@ import Image from "next/image";
 import { IoIosSearch } from "react-icons/io";
 import { IoCalendar } from "react-icons/io5";
 import { SlArrowDown } from "react-icons/sl";
-import userProfile from "../../public/image/image9.png";
+import userProfile from "../public/image/image9.png";
 import { usePathname } from "next/navigation";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Link from "next/link";

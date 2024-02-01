@@ -1,7 +1,5 @@
 import Image from "next/image";
-import image1 from "../../public/image/image1.jpeg";
-import avater from "../../public/image/avater.jpeg";
-import Link from "next/link";
+import avater from "../public/image/avater.jpeg";
 import { RxDotsHorizontal } from "react-icons/rx";
 const ContentCard = ({ image }) => {
   return (
@@ -39,13 +37,13 @@ const ContentCard = ({ image }) => {
         Why Branding matters for your Business
       </p>
       <div className="flex justify-between items-center gap-3 py-2">
-        <p className="px-3 py-2 rounded-lg text-[#A0A3BD] bg-gray-100">
+        <p className=" text-xs px-3 py-2 rounded-lg text-[#A0A3BD] bg-gray-100">
           Branding
         </p>
-        <p className="px-3 py-2 rounded-lg text-[#A0A3BD] bg-gray-100">
+        <p className=" text-xs px-3 py-2 rounded-lg text-[#A0A3BD] bg-gray-100">
           Communication
         </p>
-        <p className="px-3 py-2 rounded-lg text-[#A0A3BD] bg-gray-100">
+        <p className=" text-xs px-3 py-2 rounded-lg text-[#A0A3BD] bg-gray-100">
           Branding
         </p>
       </div>
