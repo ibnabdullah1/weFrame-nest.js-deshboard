@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="relative min-h-screen text-black lg:flex">
+        <div className="relative min-h-screen bg-[#ffffff] text-black lg:flex">
           <Sidebar />
           <div className="flex-1 bg-[#ffffff] lg:ml-[270px]">
             <Navbar />
