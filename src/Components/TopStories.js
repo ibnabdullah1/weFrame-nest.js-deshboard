@@ -9,7 +9,7 @@ const TopStories = () => {
           See All
         </a>
       </div>
-      <div className="grid grid-cols-4 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
         <TopStoriesCard image={"https://i.ibb.co/0cn7fYf/image6.jpg"} />
         <TopStoriesCard image={"https://i.ibb.co/R4Thhv6/image4.jpg"} />
         <TopStoriesCard image={"https://i.ibb.co/qj6VBWj/image5.jpg"} />

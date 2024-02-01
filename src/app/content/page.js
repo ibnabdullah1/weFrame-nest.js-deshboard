@@ -12,7 +12,7 @@ const page = () => {
       <h2 className="text-xl font-semibold">Hello Admin</h2>
       <p className="text-[#A0A3BD]">This is what we got you for today.</p>
 
-      <div className="grid grid-cols-4 gap-4 py-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 py-4">
         <div className=" bg-white rounded-md px-4 flex items-center gap-2 py-3">
           <div className="bg-[#E8E9FF] w-[50px] h-[50px] flex items-center justify-center rounded-full">
             <Image
@@ -78,7 +78,7 @@ const page = () => {
         </a>
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <ContentCard image={"https://i.ibb.co/VTG4KH6/image1.jpg"} />
         <ContentCard image={"https://i.ibb.co/Q6cyjc0/image2.jpg"} />
         <ContentCard image={"https://i.ibb.co/W2yYn8M/image3.jpg"} />

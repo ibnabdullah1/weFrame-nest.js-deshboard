@@ -32,7 +32,7 @@ const Navbar = () => {
       )}
       <div className="flex gap-4 items-center">
         {!isActive && (
-          <div className="border flex justify-between px-4 w-[280px] py-3 rounded-lg">
+          <div className="border hidden md:flex justify-between px-4 w-[280px] py-3 rounded-lg">
             <div className="flex gap-1 items-center">
               <h2>11-10-2022</h2>
               <IoCalendar className="text-[#3D43CF]" />
@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
-        <div className=" flex items-center border gap-9 px-2 rounded-lg py-2">
+        <div className="hidden mg:flex items-center border gap-9 px-2 rounded-lg py-2">
           <div className=" flex items-center gap-2">
             <Image
               width={30}
