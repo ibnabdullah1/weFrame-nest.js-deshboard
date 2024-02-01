@@ -40,7 +40,7 @@ const Sidebar = () => {
       >
         <div>
           <div className="flex flex-col justify-between flex-1 mt-6">
-            <nav>
+            <div>
               <MenuItem icon={TbSmartHome} label="Dashboard" address="/" />
 
               <MenuItem
@@ -77,7 +77,7 @@ const Sidebar = () => {
                 label="Settings"
                 address="/settings"
               />
-            </nav>
+            </div>
           </div>
         </div>
       </div>
